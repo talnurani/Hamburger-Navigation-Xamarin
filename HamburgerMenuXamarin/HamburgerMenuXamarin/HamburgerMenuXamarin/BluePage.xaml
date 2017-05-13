@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HamburgerMenuXamarin.BluePage"
+             Title="דף כחול...">
+    <StackLayout>
+        <Label Style="{StaticResource HeaderLabel}" TextColor="{StaticResource MainBlue}"
+               Text="זה דף כחול!" HorizontalTextAlignment="End">
+        </Label>
+        <BoxView Color="{StaticResource SecondBlue}" Style="{StaticResource MediumSqure}"/>
+        <BoxView Color="{StaticResource MainBlue}" Style="{StaticResource MediumSqure}"/>
+    </StackLayout>
+</ContentPage>

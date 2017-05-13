@@ -6,8 +6,9 @@
 
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
         <Label Text="Welcome to Xamarin Forms!" />
-        <Button Text="אני כפתור רגיל"/>
-        <Button Text="אני כפתור יפה" Style="{StaticResource StyleButtonView}"/>
+        <Button Text="אני כפתור רגיל" Clicked="Button_Clicked"/>
+        <Button Text="אני כפתור יפה" Style="{StaticResource StyleButtonView}" Clicked="Button_Clicked_1"/>
+        <Button Text="הוספתי רדיוס" Style="{StaticResource StyleButtonView}" BorderRadius="5" Clicked="Button_Clicked_2"/>
     </StackLayout>
 	
     

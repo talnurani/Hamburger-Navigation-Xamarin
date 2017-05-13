@@ -13,6 +13,17 @@
                 <Setter Property="BorderWidth" Value="1"/>
             </Style>
 
+            <Style x:Key="HeaderLabel" TargetType="Label">
+                <Setter Property="FontSize" Value="Large"/>
+                
+            </Style>
+
+            <Style x:Key="MediumSqure" TargetType="BoxView">
+                <Setter Property="WidthRequest" Value="150"/>
+                <Setter Property="HeightRequest" Value="150"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="VerticalOptions" Value= "Center"/>
+            </Style>
             <Color x:Key="MainRed">#f44336</Color>
             <Color x:Key="SecondRed">#d50000</Color>
 

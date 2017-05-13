@@ -13,7 +13,7 @@ namespace HamburgerMenuXamarin
         {
             InitializeComponent();
 
-            MainPage = new HamburgerMenuXamarin.MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
