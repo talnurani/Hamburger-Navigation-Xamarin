@@ -4,7 +4,24 @@
              x:Class="HamburgerMenuXamarin.App">
 	<Application.Resources>
 
-		<!-- Application resource dictionary -->
+        <ResourceDictionary>
+            <Style x:Key="StyleButtonView" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#ffd180"/>
+                <Setter Property="TextColor" Value="#ff6d00"/>
+                <Setter Property="BorderColor" Value="#ff9100"/>
+                <Setter Property="BorderRadius" Value="5"/>
+                <Setter Property="BorderWidth" Value="1"/>
+            </Style>
 
-	</Application.Resources>
+            <Color x:Key="MainRed">#f44336</Color>
+            <Color x:Key="SecondRed">#d50000</Color>
+
+            <Color x:Key="MainBlue">#2196f3</Color>
+            <Color x:Key="SecondBlue">#2962ff</Color>
+
+            <Color x:Key="MainGreen">#4caf50</Color>
+            <Color x:Key="SecondGreen">#00c853</Color>
+        </ResourceDictionary>
+
+    </Application.Resources>
 </Application>
